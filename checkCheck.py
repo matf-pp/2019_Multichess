@@ -1,0 +1,1 @@
+## ovde bih stavio neke funkcije za proveru da li je kralj bezbedan, da li je u sahu, sah matu, blablabla

@@ -1,0 +1,6 @@
+class board
+ima polja (tiles)
+tile sadrzi figuru
+
+class Piece
+podklase za svaku figuru
