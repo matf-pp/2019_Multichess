@@ -13,6 +13,8 @@ Multiplayer chess game written in python, with the possibility of modifying the 
 Lazar Mickovski, 187/2015
 Miloš Živković, 25/2015
 
+to-do: en passant, pawn into something else, gui
+
 ```diff
 - Potreban nam je detaljniji opis projekta. Prosiriti postojeci opis. (Cugurovic)
 ```
