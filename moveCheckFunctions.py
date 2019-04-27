@@ -81,6 +81,7 @@ def diagonalCheck(Piece, x, y, board):
     # we return list of possible moves
     return list
 
+
 def straightsCheck(Piece, x, y, board):
     list = []
     for i in range(x + 1, 8):
@@ -113,7 +114,7 @@ def straightsCheck(Piece, x, y, board):
 
     return list
 
-## special checks for special pieces
+# special checks for special pieces
 
 
 def kingCheck(Piece, x, y, board):
@@ -129,6 +130,7 @@ def kingCheck(Piece, x, y, board):
 
     return list
 
+
 def knightCheck(Piece, x, y, board):
     list = []
     for elem in [(x-2, y-1), (x-2, y+1), (x-1, y-2), (x-1, y+2), (x+1, y-2), (x+1, y+2), (x+2, y-1), (x+2, y+1)]:
@@ -141,6 +143,7 @@ def knightCheck(Piece, x, y, board):
         list.append(elem)
 
     return list
+
 
 def pawnCheck(Piece, x, y, board):
     list = []
