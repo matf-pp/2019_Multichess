@@ -6,6 +6,8 @@ from moveCheckFunctions import pawnCheck
 
 import copy
 
+import pygame
+
 # superclass
 class Piece:
 
@@ -276,5 +278,6 @@ def main():
         else:
             turn = "white"
 
+        
 
 main()
